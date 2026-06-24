@@ -7,6 +7,8 @@ Measure distances within images using a reference size or DPI value.
 ## Features
 
 - **Draw Lines:** Measure features on an image.
+- **Rectangle Area:** Measure rectangular areas by clicking two opposite corners.
+- **Polygon Area:** Measure any polygonal area by clicking multiple points; close the shape with the "✓ Finish" button or by clicking near the first point. Area updates live as you add points.
 - **Pixel Measurements:** Determine sizes in pixels.
 - **Real-World Units:** Measure in real units for scanned images with a known DPI.
 - **Relative Measurements:** Compare sizes relative to a reference object.
@@ -18,7 +20,10 @@ Measure distances within images using a reference size or DPI value.
 2. **Set Reference Size:** Click "Add Reference Size," then set the start and end points. Enter the length and unit.
 3. **Input DPI:** Enter DPI if known to scale measurements accurately.
 4. **Add Measurement Lines:** Click "New Measurement Line" to draw lines.
-5. **Adjust or Remove:** Drag handles to adjust lines, or click "✖" to remove them.
+5. **Area Measurements:** Select "Rectangle" or "Polygon" from the dropdown, then click "+ Add Area."
+   - **Rectangle:** Click two opposite corners to define the rectangle. Area and dimensions shown in the center.
+   - **Polygon:** Click points to define vertices. Once you have 3+ points, the area preview appears. Click "✓ Finish" or click near the first vertex to close.
+6. **Adjust or Remove:** Drag handles to adjust lines/areas, or click "✖" to remove them.
 
 ### Important
 
